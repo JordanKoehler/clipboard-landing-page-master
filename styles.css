@@ -1,0 +1,56 @@
+body {
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  text-align:center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+
+#logo-img {
+  display: block;
+  margin: auto;
+  padding-top: 10%;
+}
+
+#desktop-img {
+  position: relative;
+  margin-right: 100%;
+  margin-left: -75px;
+}
+
+.paragraph {
+  margin: auto;
+  width: 500px;
+  padding: 1%;
+}
+
+.btn {
+  height: 55px;
+  width: 250px;
+  border-radius: 50px;
+  color: #fff;
+  margin: 2%;
+}
+
+.ios-btn {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+  background-color: hsl(233, 100%, 69%);
+
+}
+
+.snippets-p {
+  margin-top: 7%;
+}
+
+.features {
+
+}
