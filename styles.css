@@ -1,7 +1,8 @@
-body {
+@media (min-width: 550px) {
+  body {
   background-image: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
-  text-align:center;
+  text-align: center;
   font-family: 'Bai Jamjuree', sans-serif;
   color: hsl(210, 10%, 33%);
   font-weight: 600;
@@ -41,16 +42,16 @@ h1, h2, h3 {
   border-radius: 50px;
   color: #fff;
   margin: 2%;
-
 }
 
 .ios-btn {
   background-color: hsl(171, 66%, 44%);
+  box-shadow: 5px 10px 10px #E1E1E1, inset 0 -1px 1px 1px #209565;
 }
 
 .mac-btn {
   background-color: hsl(233, 100%, 69%);
-
+  box-shadow:  5px 10px 10px #E1E1E1, inset 0 -1px 2px 2px #5566A2;
 }
 
 .snippets-p {
@@ -58,11 +59,12 @@ h1, h2, h3 {
 }
 
 .features {
-  text-align:left;
+  text-align: left;
+  padding: 3%;
 }
 
-.feature-box {
-  margin: 2%;
+.feature-item {
+  margin-top: 3%;
   padding: 2%;
   width: 70%;
 }
@@ -86,7 +88,7 @@ h1, h2, h3 {
 #footer {
   background-color: #EFEFEF;
   padding: 4%;
-  text-align:left;
+  text-align: left;
   margin-top: 8%;
 }
 
@@ -98,45 +100,57 @@ h1, h2, h3 {
   width: 50px;
   height: 50px;
   float: left;
- margin-right: 7%;
+  margin-right: 7%;
 }
 
 .social-icons {
   margin: auto;
   padding: 5%;
 }
+}
 
 @media (max-width: 550px) {
   body {
-    background-image: url("bg-header-mobile.png");
-    text-align:center;
+
+    text-align: center;
   }
 
-#logo-img {
-  padding: 8%;
-}
+  #logo-img {
+    padding: 8%;
+  }
+
   .features {
     text-align: center;
   }
 
   #desktop-img {
+    position: relative;
     height: 80%;
     width: 80%;
-    float: center;
     margin-left: auto;
+    margin: auto;
+    float: none;
   }
 
-.feature-box {
-  margin: auto;
-  padding: 8%;
-  text-align: center;
-}
+  .feature-item {
+    margin: auto;
+    padding: 8%;
+    text-align: center;
+  }
+
+  .feature-box{
+    padding: 5%;
+  }
 
   .device-img {
     height: 80%;
     width: 80%;
     float: center;
     margin-left: auto;
+  }
+
+  #press {
+    padding: 3%;
   }
 
   .press-logo {
@@ -146,10 +160,16 @@ h1, h2, h3 {
   #footer {
     text-align: center;
     margin-top: 20%;
+    padding: 15%;
   }
 
   .footer-img {
-    float: center;
+    float: none;
     margin-right: auto;
+    margin-bottom: 15%;
+  }
+
+  .social-footer {
+    padding-top: 15%;
   }
 }
