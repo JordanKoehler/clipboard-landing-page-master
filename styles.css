@@ -61,7 +61,7 @@ h1, h2, h3 {
   text-align:left;
 }
 
-.feature-item {
+.feature-box {
   margin: 2%;
   padding: 2%;
   width: 70%;
@@ -104,4 +104,52 @@ h1, h2, h3 {
 .social-icons {
   margin: auto;
   padding: 5%;
+}
+
+@media (max-width: 550px) {
+  body {
+    background-image: url("bg-header-mobile.png");
+    text-align:center;
+  }
+
+#logo-img {
+  padding: 8%;
+}
+  .features {
+    text-align: center;
+  }
+
+  #desktop-img {
+    height: 80%;
+    width: 80%;
+    float: center;
+    margin-left: auto;
+  }
+
+.feature-box {
+  margin: auto;
+  padding: 8%;
+  text-align: center;
+}
+
+  .device-img {
+    height: 80%;
+    width: 80%;
+    float: center;
+    margin-left: auto;
+  }
+
+  .press-logo {
+    padding: 8%;
+  }
+
+  #footer {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  .footer-img {
+    float: center;
+    margin-right: auto;
+  }
 }
