@@ -1,4 +1,4 @@
-@media (min-width: 550px) {
+
   body {
   background-image: url("images/bg-header-desktop.png");
   background-repeat: no-repeat;
@@ -108,7 +108,7 @@ h1, h2, h3 {
   margin: auto;
   padding: 5%;
 }
-}
+
 
 @media (max-width: 550px) {
   body {
